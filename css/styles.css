@@ -1,10 +1,12 @@
 :root {
   --color-primary: #2584ff;
   --color-seconday: #00d9ff;
-  --color-primary: #ff3400;
+  --color-accent: #ff3400;
   --color-headings: #1b0760;
   --color-body: #918ca4;
 }
+
+/* TYPOAGHRAPHY */
 
 html {
   /* 62.5 of 16px is 10px */
@@ -56,5 +58,34 @@ p {
 
   h3 {
     font-size: 2.4rem;
+  }
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+}
+
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.link-arrow::after {
+  margin-left: 5px;
+  content: "-->";
+}
+
+.link-arrow:hover::after {
+  margin-left: 10px;
+  transition: margin 0.15s;
+}
+
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.5rem;
   }
 }
