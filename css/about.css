@@ -121,6 +121,7 @@ p {
   justify-content: center;
   align-items: center;
   object-fit: cover;
+  text-align: center;
 }
 
 .about--top h2 {
@@ -161,6 +162,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .team-memeber img {

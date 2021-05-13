@@ -1,3 +1,7 @@
+.priorities{
+  padding: 0 2rem;
+}
+
 .mission--top .priorities {
   padding: 4rem;
 }
@@ -9,7 +13,7 @@
 .priorities__item {
   margin-bottom: 5rem;
 }
-
+ 
 .priorities__item li {
   margin-bottom: 2rem;
 }
