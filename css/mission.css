@@ -1,0 +1,30 @@
+.mission--top .priorities {
+  padding: 4rem;
+}
+
+.priorities > h2 {
+  margin-bottom: 5rem;
+}
+
+.priorities__item {
+  margin-bottom: 5rem;
+}
+
+.priorities__item li {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .priorities__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .priorities__item {
+    width: 30%;
+  }
+
+  .priorities > h2 {
+    margin-left: 5rem;
+  }
+}

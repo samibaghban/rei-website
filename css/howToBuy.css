@@ -1,0 +1,169 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --color-body-darker: #5c5577;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography */
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  margin-top: 0;
+}
+ 
+/* HOW TO BUY STEPS */
+
+.howToBuyHeader {
+  height: 40vh;
+  width: 100vw;
+  background: url("../images/crypto-bg.jpeg") no-repeat center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.howToBuyHeader h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.media__number {
+  color: var(--color-primary);
+  background: #000;
+  border: 2px solid var(--color-primary);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+/* HOW TO GUID VIDEOS */
+
+.howToGuids {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.howToGuids h2 {
+  color: #fff;
+  height: 20vh;
+  width: 100vw;
+  background: url("../images/crypto-bg.jpeg") no-repeat center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  margin: 0;
+}
+
+.howToGuids__video {
+  height: 315px;
+  width: 90%;
+  margin-top: 5rem;
+}
+
+.howToGuids__playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-video {
+  width: 40%;
+  height: 160px;
+  margin-right: 2rem;
+  margin-top: 0;
+}
+
+.howToGuids p {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .howToGuids h2 {
+    display: none;
+  }
+
+  .block-numbers {
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block-numbers .list {
+    width: 35%;
+    margin-top: 10rem;
+  }
+
+  .howToGuids {
+    width: 40%;
+  }
+
+  .howToGuids__video {
+    margin-left: 5rem;
+  }
+}

@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HRML/CSS</title>
+    <meta
+      name="description"
+      content="Deploy your websites in less then 60 seconds."
+    />
+    <meta property="og:title" content="Moshify..." />
+    <meta property="og:description" content="Moshify description..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://" />
+    <meta property="og:url" content="https://" />
+
+    <title>CRYPTO - Real Estate Backed Coin</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -11,15 +21,456 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/cc5ebecd9e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="input-group">
-      <input
-        type="text"
-        class="input"
-        placeholder="Enter domain name here..."
-      />
-      <button class="btn btn--accent">Search</button>
+    <header>
+      <div class="banner">
+        <a href="http://" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="http://" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fab fa-github-alt"></i>
+        </a>
+        <a class="banner__btn" href="">Buy Now</a>
+      </div>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="index.html">Home</a></li>
+          <li class="nav__item"><a href="howToBuy.html">How To Buy</a></li>
+          <li class="nav__item"><a href="about.html">About Us</a></li>
+          <li class="nav__item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <a class="nav__buy" href="">Buy Now</a>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 data-aos="fade-right" class="block__heading">
+            Real Estate Backed Coin
+          </h1>
+          <p class="hero__tagline">
+            Invest in real estate without having to go through all the hastle
+          </p>
+          <a href="" class="btn btn--accent btn--stretched">Buy Now</a>
+        </header>
+        <picture data-aos="zoom-in">
+          <source
+            type="image/webp"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"
+          />
+          <img class="hero__image" src="images/banner.png" alt="" />
+        </picture>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>Invest in a coin that is backed by real estate</h2>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">100% Real Estate backed token</h3>
+          <p>
+            (Proceeds are used to acquire distressed properties in major cities
+            around the world. Buying distressed properties will allow us to buy
+            below market value and renovating them will increase the value which
+            in turn increases CREE coin’s value.
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture data-aos="zoom-in-left">
+          <source
+            type="image/webp"
+            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Community driven</h3>
+          <p>
+            100% community based decisions on property purchases, sales, and
+            renovation details) (CREE COIN allows you to invest in an asset
+            based currency
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Get paid interest while you hold</h3>
+          <p>
+            The beauty of Defi technology makes you the investor, owner, and
+            bank. Earn 5% interest while holding CREE
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#clock"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Pay Rent</h3>
+          <p>
+            CREE has partnered with virtual property management company UnitVPM
+            to manage all of the CREE community’s assets. CREE coins will be the
+            only accepted form of payment from tenants.
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/support.webp 1x, images/support@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/support@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Quarterly Buy Backs</h3>
+          <p>
+            As a community, we have tenants paying us monthly to lease our
+            properties. That equates to a lot of profit. That money will be
+            re-invested by purchasing more property and buying back coins.
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
+        </picture>
+      </article>
+    </section>
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>Road Map</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture data-aos="fade-right" class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
+          />
+          <img src="images/ipad.png" alt="" />
+        </picture>
+        <ul class="list" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#snap"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Q1 2021</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Q2 2021</h3>
+                <p>
+                  The time has come We will have our Initial Coin Offering.
+                  Proceeds will be used to acquire and rehab distressed
+                  properties. Turning them all cash-flow positive within 4
+                  months. We will integrate CREE coin into the UNITvpm app as
+                  the only form of payment.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Q3 2021</h3>
+                <p>
+                  Appraise and raise! We will Apprise the community’s properties
+                  to reflect the added equity built. We will build a dashboard
+                  for the community to asses, vote, and provide valuable
+                  feedback on the direction we take with the cash flow (buy
+                  additional property or buy back coins). This process creates a
+                  dynamic cycle of adding value to our coin through buying
+                  properties on a discount due to their current condition and
+                  rehabbing them (earned “sweat” equity). Then we rent the
+                  rehabbed properties to create residual income for CREE
+                  (residual/passive value). We are aiming to make CREE the
+                  greatest hyper growth coin in the market and your support and
+                  input will help get us there!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Q4 2021</h3>
+                <p>
+                  We will have our first blockchain protocol completed. This
+                  will include vital building information (think of it as a
+                  Carfax for commercial properties). The data will allow the
+                  community to monitor and track financials, building health,
+                  and compare various strategies (hold and operate, sell, or
+                  sub-lease).
+                </p>
+              </div>
+            </div>
+            <a href="roadmap.html" class="link-arrow-right">Learn More</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="block" data-aos="zoom-in">
+      <header class="block__header">
+        <h2>What our Holders are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="images/testimonial.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt optio officiis dolore earum error eaque perferendis
+                laudantium sed praesentium dolorum.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__organization">ABC Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Ready to buy?</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+              voluptate tempora qui distinctio consequatur aliquid pariatur
+              cupiditate quas cum fugit.
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--stretched">Buy Now</a>
+        </div>
+      </div>
     </div>
+
+    <div class="scrollTop" onclick="scrollToTop();">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Resources</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="howToBuy.html">How To Buy</a></li>
+              <li><a href="#">How To Buy Video</a></li>
+              <li><a href="#">Adding To Wallet</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="about.html">About</a></li>
+              <li><a href="mission.html">Mission</a></li>
+              <li><a href="roadmap.html">Road Map</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact Form</a></li>
+              <li><a href="#">Email</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Social</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">fa-linkedin-in</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Discord</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__brand">
+          <img src="images/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright © 2020 Unit Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/scrollToTop.js"></script>
   </body>
 </html>
