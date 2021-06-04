@@ -113,10 +113,13 @@ p {
 /* ABOUT COIN SECTION */
 
 .about--top {
-  height: 65vh;
+  height: 70vh;
   width: 100vw;
-  background: url("../images/crypto-bg.jpeg") no-repeat center;
-  background-attachment: fixed;
+  background: url("../images/about-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
   display: flex;
   justify-content: center;
   align-items: center;

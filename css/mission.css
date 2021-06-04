@@ -1,5 +1,5 @@
-.priorities{
-  padding: 0 2rem;
+.priorities {
+  padding: 0 4rem;
 }
 
 .mission--top .priorities {
@@ -13,9 +13,24 @@
 .priorities__item {
   margin-bottom: 5rem;
 }
- 
+
 .priorities__item li {
   margin-bottom: 2rem;
+}
+
+.mission--top {
+  height: 70vh;
+  width: 100vw;
+  background: url("../images/mission-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {

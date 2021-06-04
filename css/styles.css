@@ -162,7 +162,7 @@ a {
 
 .banner__btn {
   background: var(--color-primary);
-  padding: 1.5rem 1rem;
+  padding: 0.5rem 1rem;
   /* border-radius: 25px; */
   margin-left: 1.5rem;
   color: #000;
@@ -913,6 +913,7 @@ a {
 
   .block-showcase__image {
     justify-self: end;
+    align-self: center;
   }
 
   .block-showcase__image > img {
@@ -1157,7 +1158,7 @@ a {
 }
 
 .scrollTop.active {
-  bottom: 6rem;
+  bottom: 7rem;
   visibility: visible;
   opacity: 1;
 }
