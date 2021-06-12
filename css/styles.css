@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #2584ff;
-  --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
-  --color-headings: #1b0760;
+  --color-primary: #217dcb;
+  --color-secondary: #1b70bf;
+  --color-accent: #217dcb;
+  --color-headings: #000;
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
   --color-border: #ccc;
@@ -315,7 +315,7 @@ a {
 }
 
 .btn--secondary:hover {
-  background: #05cdf0;
+  background: #1b70bf;
 }
 
 .btn--accent {
@@ -324,7 +324,7 @@ a {
 }
 
 .btn--accent:hover {
-  background: #ec3000;
+  background: #1b70bf;
 }
 
 .btn--outline {
