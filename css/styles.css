@@ -6,7 +6,7 @@
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
   --color-border: #ccc;
-  --border-radius: 30px; 
+  --border-radius: 30px;
 }
 
 *,
@@ -180,6 +180,64 @@ a {
   .banner__btn {
     margin-right: 1.5rem;
     padding: 0.5rem 1rem;
+  }
+}
+
+/* Main header areao */
+.hero-container {
+  background: #000;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10rem;
+  padding-top: 5rem;
+}
+
+.hero-photo {
+  width: 100vw;
+}
+
+.hero-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    background: #000;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rem 10rem 20rem;
+  }
+
+  .hero-photo {
+    width: 100%;
+  }
+
+  .hero-body {
+    width: 60%;
+  }
+
+  .hero-heading {
+    color: #fff;
+    font-size: 6rem;
   }
 }
 
