@@ -657,7 +657,7 @@ a {
   font-size: 110%;
 }
 
-.testimonial__image {
+.testimonial__image { 
   position: relative;
   margin: 0 3rem;
 }
