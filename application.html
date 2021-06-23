@@ -21,7 +21,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/howToBuy.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/cc5ebecd9e.js"
@@ -61,103 +61,86 @@
           <li class="nav__item"><a href="about.html">About Us</a></li>
           <li class="nav__item"><a href="projects.html">Open Projects</a></li>
         </ul>
+
+        <a class="nav__buy" href="">Buy Now</a>
       </nav>
     </header>
 
-    <section class="howToBuyHeader">
-      <h2>How To Buy REI Coin?</h2>
-    </section>
-
-    <section class="block block--dark block-numbers">
-      <ul class="list">
-        <li>
-          <div class="media">
-            <div class="media__image">
-              <div class="media__number">1</div>
-            </div>
-            <div class="media__body">
-              <p>
-                Navigate to Open Projects Tab inside the main navigation menu
-                located on the top of the webpage.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="media">
-            <div class="media__image">
-              <div class="media__number">2</div>
-            </div>
-            <div class="media__body">
-              <p>
-                Choose the project you would like to invest in and click on the
-                invest now button.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="media">
-            <div class="media__image">
-              <div class="media__number">3</div>
-            </div>
-            <div class="media__body">
-              <p>
-                Fill out the application form that allows us to select the right
-                investors for the project.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="media">
-            <div class="media__image">
-              <div class="media__number">4</div>
-            </div>
-            <div class="media__body">
-              <p>
-                Once you have filled out the form click the submit button and
-                one of our associates will get back to you in 24-hours.
-              </p>
-            </div>
-          </div>
-        </li>
-      </ul>
-
-      <section class="howToGuids">
-        <h2>Video Guids</h2>
-        <iframe
-          class="howToGuids__video"
-          src="https://www.youtube.com/embed/tSAiIvWoCmI"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+    <section class="block">
+      <header class="block__header">
+        <h2>Investment Application</h2>
         <p>
-          Alternatively, here's some useful guides created by our community
-          members
+          To invest in this project you must fill out the form below and one of
+          our representatives will contact you within 24 hours with the next
+          steps.
         </p>
+      </header>
+      <div class="container">
+        <div class="card project">
+          <div class="grid grid--1x2">
+            <div class="input--container">
+              <label for="name">Full Name</label>
+              <input
+                placeholder="John Doe"
+                class="application--input"
+                id="name"
+                type="text"
+              />
+            </div>
 
-        <div class="howToGuids__playlist">
-          <iframe
-            class="howToGuids__video small-video"
-            src="https://www.youtube.com/embed/tSAiIvWoCmI"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            class="howToGuids__video small-video"
-            src="https://www.youtube.com/embed/tSAiIvWoCmI"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+            <div class="input--container">
+              <label for="email">Email Address</label>
+              <input
+                placeholder="example@gmail.com"
+                class="application--input"
+                id="email"
+                type="email"
+              />
+            </div>
+
+            <div class="input--container">
+              <label for="phone">Phone Number</label>
+              <input
+                placeholder="123-456-7890"
+                class="application--input"
+                id="phone"
+                type="number"
+              />
+            </div>
+
+            <div class="input--container">
+              <label for="occupation">Occupation</label>
+              <input
+                placeholder="Software Engineer"
+                class="application--input"
+                id="occupation"
+                type="number"
+              />
+            </div>
+
+            <div class="input--container">
+              <label for="investment">Amount of Investment</label>
+              <input
+                placeholder="300,000"
+                class="application--input"
+                id="investment"
+                type="text"
+              />
+            </div>
+
+            <div class="input--container">
+              <label for="investment">Referral Code</label>
+              <input
+                placeholder="X134SNDI163"
+                class="application--input"
+                id="investment"
+                type="text"
+              />
+            </div>
+          </div>
+          <a href="" class="project--btn">Submit</a>
         </div>
-      </section>
+      </div>
     </section>
 
     <div class="scrollTop" onclick="scrollToTop();">
@@ -168,16 +151,16 @@
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
           <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <h2 class="collapsible__heading footer__heading">Resources</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Website Hosting</a></li>
-              <li><a href="#">Free Automated Wordpress</a></li>
-              <li><a href="#">Migrations</a></li>
+              <li><a href="howToBuy.html">How To Buy</a></li>
+              <li><a href="#">How To Buy Video</a></li>
+              <li><a href="#">Adding To Wallet</a></li>
             </ul>
           </div>
         </section>
@@ -190,9 +173,9 @@
           </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Affiliates</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="mission.html">Mission</a></li>
+              <li><a href="roadmap.html">Road Map</a></li>
             </ul>
           </div>
         </section>
@@ -205,33 +188,36 @@
           </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">Contact Form</a></li>
+              <li><a href="#">Email</a></li>
               <li><a href="#">FAQ</a></li>
             </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
           <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <h2 class="collapsible__heading footer__heading">Social</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Domain Checker</a></li>
-              <li><a href="#">Domain Transfer</a></li>
-              <li><a href="#">Free Domain</a></li>
+              <li><a href="#">Linkedin</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Discord</a></li>
             </ul>
           </div>
         </section>
         <div class="footer__brand">
           <img src="images/logo.png" alt="" />
-          <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
+          <p class="footer__copyright">Copyright © 2020 Unit Inc.</p>
         </div>
       </div>
     </footer>
+
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
